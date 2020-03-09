@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F6F4E2"
+    >
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/recyclerview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="100dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Proceed to checkout"
+
+        android:background="@drawable/round_corner"
+        app:layout_constraintTop_toBottomOf="@id/recyclerview"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
